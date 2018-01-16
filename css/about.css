@@ -1,5 +1,14 @@
 @import "main.css";
 
+a {
+	color: #ff9581;
+}
+
+a:hover {
+	color: #FFC0B4;
+}
+
+
 .profile-wrapper {
 
 }
@@ -7,10 +16,21 @@
 .profile-photo-wrapper {
 	display: block;
 	text-align: center;
-	height: 25em;
+	height: 35em;
+	white-space: nowrap;
 }
 
 .profile-photo {
 	height: 100%;
 	/*width: 100%;*/
+}
+
+.about-wrapper {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.grid-title {
+	text-align: left;
+	padding-bottom: 0;
 }
