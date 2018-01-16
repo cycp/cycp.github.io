@@ -1,0 +1,16 @@
+@import "main.css";
+
+.profile-wrapper {
+
+}
+
+.profile-photo-wrapper {
+	display: block;
+	text-align: center;
+	height: 25em;
+}
+
+.profile-photo {
+	height: 100%;
+	/*width: 100%;*/
+}
