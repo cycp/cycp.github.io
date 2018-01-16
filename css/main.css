@@ -272,6 +272,10 @@ footer {
     color: white;
 }
 
+.overlay h2 {
+    padding:18em 1em 0em 1em;
+}
+
 .grid-list:hover .overlay {
     opacity:1
 }
@@ -285,6 +289,10 @@ footer {
 @media only screen and (min-width: 768px) {
 .overlay{
 min-height: 90px;
+}
+
+.overlay h2 {
+    padding:none;
 }
     
 header {
