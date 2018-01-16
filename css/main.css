@@ -109,8 +109,7 @@ display: inline-block}
 }
 
 .intro-banner {
-    width: 100%;
-    padding: 0 8em 6em 8em;
+    width: 80%;
 }
 
 /* Grid List  */
@@ -129,12 +128,14 @@ display: inline-block}
     height: 300px;
     background: url("../img/mindmockup.png");
     background-size: cover;
+    background-position: center;
 }
 
 .soundproof {
     height: 300px;
     background: url("../img/sp.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .poem {
@@ -255,6 +256,25 @@ footer {
 }
 
 @media only screen and (min-width: 320px) {
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    transition:opacity .25s ease-in-out;
+    -o-transition:opacity .25s ease-in-out;
+    -moz-transition:opacity .25s ease-in-out;
+    -webkit-transition:opacity .25s ease-in-out;
+    opacity:0;
+    background:#f5f5f5;
+    background:rgba(0,0,0,.5);
+    color: white;
+}
+
+.grid-list:hover .overlay {
+    opacity:1
+}
 
 }
 
