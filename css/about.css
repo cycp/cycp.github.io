@@ -16,13 +16,11 @@ a:hover {
 .profile-photo-wrapper {
 	display: block;
 	text-align: center;
-	height: 35em;
 	white-space: nowrap;
 }
 
 .profile-photo {
-	height: 100%;
-	/*width: 100%;*/
+	width: 35%;
 }
 
 .about-wrapper {
