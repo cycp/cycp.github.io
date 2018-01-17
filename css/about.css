@@ -5,7 +5,7 @@ a {
 }
 
 a:hover {
-	color: #FFC0B4;
+	color: #ffccc3;
 }
 
 .profile-photo-wrapper {
@@ -30,4 +30,14 @@ a:hover {
 
 .description {
 	padding-bottom: 2em;
+}
+
+.subtitle {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .7px;
+    color: #474747;
+    padding-top: 1em;
+    margin-bottom: .5em;
 }
