@@ -8,11 +8,6 @@ a:hover {
 	color: #FFC0B4;
 }
 
-
-.profile-wrapper {
-
-}
-
 .profile-photo-wrapper {
 	display: block;
 	text-align: center;
@@ -31,4 +26,8 @@ a:hover {
 .grid-title {
 	text-align: left;
 	padding-bottom: 0;
+}
+
+.description {
+	padding-bottom: 2em;
 }
